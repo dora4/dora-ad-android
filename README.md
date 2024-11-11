@@ -6,7 +6,7 @@ dora-ad-android
 
 添加以下代码到项目根目录下的settings.gradle.kts
 ```kotlin
-dependencyResolutionManagement { {
+dependencyResolutionManagement {
     repositories {
         maven { setUrl("https://jitpack.io") }
     }
@@ -18,7 +18,7 @@ dependencies {
     // 扩展包必须在有主框架dora的情况下使用
     implementation("com.github.dora4:dora:1.2.29")
     implementation("com.github.dora4:dcache-android:2.5.20")
-    implementation("com.github.dora4:dora-ad-android:1.0")
+    implementation("com.github.dora4:dora-ad-android:1.1")
     implementation("io.github.youth5201314:banner:2.2.2")
 }
 ```
