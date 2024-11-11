@@ -10,7 +10,6 @@ android {
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 34
     }
 
     buildTypes {
@@ -25,9 +24,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_19
         targetCompatibility = JavaVersion.VERSION_19
-    }
-    kotlinOptions {
-        jvmTarget = "19"
     }
 }
 
@@ -56,7 +52,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-ad-android"
-                version = "1.10"
+                version = "1.11"
             }
         }
     }
