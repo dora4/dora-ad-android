@@ -22,23 +22,14 @@ android {
         dataBinding = true
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_19
-        targetCompatibility = JavaVersion.VERSION_19
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(19)
-    }
-}
-
-kotlin {
-    jvmToolchain(19)
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.10")
+
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.0")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.appcompat:appcompat-resources:1.7.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
@@ -58,7 +49,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-ad-android"
-                version = "1.13"
+                version = "1.14"
             }
         }
     }

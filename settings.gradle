@@ -14,7 +14,7 @@ pluginManagement {
                 useModule("com.github.dcendents:android-maven-gradle-plugin:1.5")
             }
             if (requested.id.namespace == "org.jetbrains.kotlin") {
-                def kotlin_version = "1.9.10"
+                def kotlin_version = "2.0.0"
                 useModule("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
             }
         }
