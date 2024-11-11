@@ -27,6 +27,12 @@ android {
     }
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(19)
+    }
+}
+
 kotlin {
     jvmToolchain(19)
 }
@@ -52,7 +58,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-ad-android"
-                version = "1.12"
+                version = "1.13"
             }
         }
     }
