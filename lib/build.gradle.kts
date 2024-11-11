@@ -22,11 +22,8 @@ android {
         dataBinding = true
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-    kotlinOptions {
-        jvmTarget = "17"
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 
@@ -51,7 +48,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-ad-android"
-                version = "1.4"
+                version = "1.5"
             }
         }
     }
