@@ -2,7 +2,7 @@ dora-ad-android
 ![Release](https://jitpack.io/v/dora4/dora-ad-android.svg)
 --------------------------------
 
-#### gradle依赖配置
+#### Gradle依赖配置
 
 添加以下代码到项目根目录下的settings.gradle.kts
 ```kotlin
