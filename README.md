@@ -30,7 +30,7 @@ RetrofitManager.initConfig {
     mappingBaseUrl(AdService::class.java, "http://dorachat.com:9091")
 }
 ```
-将layout_banner_ad包含进布局。
+将layout_banner_ad.xml添加到布局。
 如
 ```xml
 <include layout="@layout/layout_banner_ad"/>
