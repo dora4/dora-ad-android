@@ -19,7 +19,6 @@ dependencies {
     implementation("com.github.dora4:dora:1.2.29")
     implementation("com.github.dora4:dcache-android:2.5.20")
     implementation("com.github.dora4:dora-ad-android:1.14")
-    implementation("com.github.dora4:dview-titlebar:1.37")
     implementation("io.github.youth5201314:banner:2.2.2")
 }
 ```
