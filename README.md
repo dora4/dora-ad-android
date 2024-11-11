@@ -38,5 +38,5 @@ RetrofitManager.initConfig {
 ```
 加载横幅广告
 ```kotlin
-BannerAd.loadBannerAds()
+BannerAd.loadBannerAds(this, "app_name", binding.banner as Banner<String, BannerAd.ImageAdapter>)
 ```
